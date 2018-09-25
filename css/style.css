@@ -1,0 +1,144 @@
+body {
+  background-color: black;
+  font-family: "IBM Plex Mono", monospace;
+  background-image: url("../images/background.jpg");
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #49966c;
+}
+
+h2 {
+  color: #44c47e;
+}
+
+aside {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+aside .blog {
+  width: 66%;
+}
+aside .blog .blogposts {
+  background-color: white;
+  border-radius: 4px 0 0 0;
+  color: brown;
+  padding: 1px 20px 10px 20px;
+  margin-bottom: 20px;
+}
+aside .blog .articlebox {
+  border-top: 1px dotted brown;
+}
+aside .blog .articlebox:last-of-type {
+  border-bottom: 1px dotted brown;
+}
+aside .blog .articlebox p.date {
+  font-size: 10px;
+  line-height: 0.1em;
+}
+aside .blog .testimonials {
+  background-color: white;
+  border-radius: 4px 0 0 0;
+  color: brown;
+  padding: 1px 20px 10px 20px;
+}
+aside .blog .testimonials p.testimonial {
+  text-align: right;
+  color: #44c47e;
+}
+
+.banners {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#articlecontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+#articlecontainer .description {
+  color: #795548;
+  line-height: 1.7;
+}
+
+header nav {
+  display: flex;
+}
+header .list-container {
+  display: flex;
+  padding: 0;
+  width: 100%;
+}
+header .list-container .list-item {
+  list-style-type: none;
+  text-align: center;
+  width: 100%;
+}
+header .logo {
+  width: 100%;
+}
+
+.link {
+  padding: 1rem;
+  background-color: #44c47e;
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-right: 1px solid white;
+}
+.link:last-of-type {
+  border-right: none;
+}
+.link:hover {
+  background-color: #3d8e62;
+  color: #303030;
+}
+
+footer .bottom {
+  display: flex;
+  background-color: tan;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .list-container {
+  display: flex;
+  padding: 0;
+  width: 70%;
+}
+footer .list-container .list-item {
+  list-style-type: none;
+}
+
+.social {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.social .fab {
+  color: #ffffff9e;
+}
+.social .fab:hover {
+  color: white;
+}
+
+.linkf {
+  padding: 1rem;
+  display: block;
+  color: #967f60;
+  text-decoration: none;
+  font-weight: bold;
+}
+.linkf:hover {
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

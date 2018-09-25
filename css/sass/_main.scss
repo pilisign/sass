@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    font-family: 'IBM Plex Mono', monospace;
+    background-image: url("../images/background.jpg");
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #49966c;
+}
+
+h2 {
+  color:rgb(68, 196, 126);
+}
+
+aside {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  .blog {
+    width: 66%;
+    .blogposts {
+      background-color: white;
+      border-radius: 4px 0 0 0;
+      color: brown;
+      padding: 1px 20px 10px 20px;
+      margin-bottom: 20px;
+    }
+      .articlebox {
+        border-top: 1px dotted brown;
+        &:last-of-type {
+          border-bottom: 1px dotted brown;
+        }
+        p.date {
+          font-size: 10px;
+          line-height: 0.1em;
+        }
+      }
+    .testimonials {
+      background-color: white;
+      border-radius: 4px 0 0 0;
+      color: brown;
+      padding: 1px 20px 10px 20px;
+        p.testimonial {
+        text-align: right;
+        color: rgb(68, 196, 126);
+        }
+    }
+  }
+}
+
+.banners {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+
+
+#articlecontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  .description{
+    color: #795548;
+    line-height: 1.7;
+  }
+}

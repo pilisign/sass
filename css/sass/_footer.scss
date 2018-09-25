@@ -1,0 +1,41 @@
+footer {
+    .bottom {
+        display: flex;
+        background-color: tan;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: space-between
+    }
+    .list-container {
+        display: flex;
+        padding: 0;
+        width: 70%;
+        .list-item {
+            list-style-type: none;
+        }
+    }
+}
+
+.social {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+.fab {
+  color: #ffffff9e;
+  &:hover {
+      color: white;
+  }
+}
+}
+
+.linkf {
+    padding: 1rem;
+    display: block;
+    color: #967f60;
+    text-decoration: none;
+    font-weight: bold;
+    &:hover {
+        color: white;
+    }
+
+}

@@ -1,0 +1,37 @@
+header {
+    nav {
+        display: flex;
+    }
+    .list-container {
+        display: flex;
+        padding: 0;
+        width: 100%;
+        .list-item {
+            list-style-type: none;
+            text-align: center;
+            width: 100%;
+        }
+    }
+    .logo {
+      width: 100%;
+    }
+}
+.link {
+    padding: 1rem;
+    background-color: rgb(68, 196, 126);
+    display: block;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-right: 1px solid white;
+    &:last-of-type {
+      border-right: none;
+    }
+    &:hover {
+        background-color: #3d8e62;
+        color: rgb(48, 48, 48);
+    }
+
+
+}
